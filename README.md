@@ -13,5 +13,6 @@ Este repositorio lo he creado a nivel personal para hacer un **control de versio
 | Script               | Descripción                                                                             |
 | ------               | -----------                                                                             |
 |               |             |
-| Apache      |    |
-|       |    |
+| Apache.yml      | En este script se aprovisionaran los clientes-servidores con Apache y se modificará el puerto del virtualhost   |
+| MySQL.yml      | En este script se aprovisionaran los clientes-servidores con MySQL modificando el bind-address y ejecutando un script que modifica los permisos del usuario root. Con estas dos acciones conseguimos el acceso remoto a los servidores.   |
+| Ec2.yml      |    |
