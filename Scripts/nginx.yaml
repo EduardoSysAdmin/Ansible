@@ -14,7 +14,7 @@
   tasks:
 
     - name: Installing web service...
-      apt: name=nginx update_cache=yes state='{{nginx_version}}'
+      package: name=nginx update_cache=yes state='{{nginx_version}}'
 
     - name: Nginx non secure server listen on port 8082...
       replace:
